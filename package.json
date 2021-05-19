@@ -1,0 +1,32 @@
+{
+  "name": "miolara",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "preferGlobal": "true",
+  "bin": {
+    "miolara": "bin/miolara.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "charm": "^1.0.2",
+    "child-process-promise": "^2.2.1",
+    "clui": "^0.3.6",
+    "commander": "^6.2.0",
+    "execa": "^4.1.0",
+    "extended-terminal-menu": "^3.0.3",
+    "inquirer": "^7.3.3",
+    "listr2": "^3.2.2",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1",
+    "ora": "^5.1.0",
+    "shelljs": "^0.8.4",
+    "simple-terminal-menu": "^2.0.0"
+  }
+}
